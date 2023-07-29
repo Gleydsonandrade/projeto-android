@@ -199,11 +199,12 @@ aside > ul {
     columns: 2;
 }
 
-.btn {
+button {
     padding: 10px;
     font-size: 20px;
     background-color: var(--cor5);
-    margin: auto; 
+    display: flex;
+    margin-left: 670px; 
     outline: none;
     color: white;
     border: 1px solid gray;
