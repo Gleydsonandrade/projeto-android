@@ -6,6 +6,10 @@
     font-weight: normal; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --cor0: #ebe5bd;
     --cor1: #83e1ad;
@@ -193,6 +197,23 @@ aside > ul {
     list-style: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--cor5);
+    display: flex; 
+    margin: auto; 
+    outline: none;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1a5c37;
 }
 
 footer {
