@@ -200,10 +200,10 @@ aside > ul {
 }
 
 button {
+    display: flex;
     padding: 10px;
     font-size: 20px;
-    background-color: var(--cor5);
-    display: flex;
+    background-color: var(--cor5); 
     margin-left: 670px; 
     outline: none;
     color: white;
@@ -212,7 +212,7 @@ button {
     cursor: pointer;
 }
 
-.btn:hover {
+button:hover {
     background-color: #1a5c37;
 }
 
